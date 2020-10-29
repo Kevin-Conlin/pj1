@@ -19,7 +19,7 @@ object InternalLinkMain extends App {
   job.setJarByClass(InternalLinkMain.getClass)
 
   //Specifies job name
-  job.setJobName("Word Count")
+  job.setJobName("Link Count")
 
   //Specifies input path
   FileInputFormat.setInputPaths(job, new Path(args(0)))

@@ -19,7 +19,7 @@ object PageViewMain extends App {
   job.setJarByClass(PageViewMain.getClass)
 
   //Specifies job name
-  job.setJobName("Word Count")
+  job.setJobName("Page Count")
 
   //Specifies input path
   FileInputFormat.setInputPaths(job, new Path(args(0)))

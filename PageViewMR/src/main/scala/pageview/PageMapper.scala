@@ -14,7 +14,9 @@ class PageMapper extends Mapper[LongWritable, Text, Text, IntWritable] {
 
       if (list(0) == "en") {
         context.write(new Text(list(1)), new IntWritable(list(2).toInt))
-      }
+      } else if (list(0) == "en.m") {
+      context.write(new Text(list(1)), new IntWritable(list(2).toInt))
+    }
   }
 
 }
