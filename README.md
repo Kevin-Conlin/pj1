@@ -1,4 +1,4 @@
-# Wikipedia analytics MapReduce programs
+# Wikipedia Analytics MapReduce Programs
 
 This project contains scala files used to perform MapReduce jobs on data provided by Wikipedia.
 
