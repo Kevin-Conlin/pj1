@@ -1,5 +1,14 @@
 -- Database used: link_db
--- Tables used: 09_pageviews, 10_20_pageviews, au_activity, clickstream, country_activity, link_count, mobile_count, uk_activity, us_activity, wiki_edits
+-- Tables used: 09_pageviews, 10_20_pageviews, au_activity, clickstream, link_count, mobile_count, uk_activity, us_activity, wiki_edits
+-- 09_pageviews contains all pageviews for September 2020 as 2 columns: aritcle(typo during table set up) and views
+-- 10_20_pageviews contains all pageviews for October 20, 2020 as two columns: article and views
+-- au_activity contains pageview data for daytime hours of Australia 10/20/2020 (9:00 - 21:00 AEDT) as 2 columns: article, views
+-- clickstream contains the wiki clickstream data from September 2020 as 4 columns: previous article, current article, link_type, clicks
+-- link_count contains the number of internal links followed from a given page for September 2020 as 2 columns: article, links
+-- mobile_count contians pageviews for mobile user in September 2020 as 2 columns: article, views
+-- uk_activity contains pageview data for daytime hours of the UK on 10/20/2020 (8:00 - 20:00 GMT) as 2 columns: article, views
+-- us_activity contains pageview data for daytime hours of the US on 10/20/2020 (10:00 - 22:00 EST) as 2 columns: article, views
+-- wiki_edits contains edit data from September 2020 stored as 70 columns, though the only column of interest for these queries is: revision_seconds_to_identity_revert
 
 
 -- Q1
